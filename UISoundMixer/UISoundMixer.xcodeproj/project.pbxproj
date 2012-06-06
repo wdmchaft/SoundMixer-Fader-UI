@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78B4379F157F1363007A53F8 /* aapBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B4379E157F1363007A53F8 /* aapBG.png */; };
+		78B437A5157F1374007A53F8 /* displayBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B437A1157F1374007A53F8 /* displayBackground.png */; };
+		78B437A6157F1374007A53F8 /* faderKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B437A2157F1374007A53F8 /* faderKey.png */; };
+		78B437A7157F1374007A53F8 /* faderTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B437A3157F1374007A53F8 /* faderTrack.png */; };
+		78B437A8157F1374007A53F8 /* glossyDisplayGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B437A4157F1374007A53F8 /* glossyDisplayGlass.png */; };
+		78BEED02157ECF10006B19C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BEED01157ECF10006B19C0 /* UIKit.framework */; };
+		78BEED04157ECF10006B19C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BEED03157ECF10006B19C0 /* Foundation.framework */; };
+		78BEED06157ECF10006B19C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BEED05157ECF10006B19C0 /* CoreGraphics.framework */; };
+		78BEED0C157ECF10006B19C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BEED0A157ECF10006B19C0 /* InfoPlist.strings */; };
+		78BEED0E157ECF10006B19C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BEED0D157ECF10006B19C0 /* main.m */; };
+		78BEED12157ECF10006B19C0 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BEED11157ECF10006B19C0 /* SMAppDelegate.m */; };
+		78BEED15157ECF10006B19C0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BEED13157ECF10006B19C0 /* MainStoryboard.storyboard */; };
+		78BEED18157ECF10006B19C0 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BEED17157ECF10006B19C0 /* SMViewController.m */; };
+		78BEED4D157F04DE006B19C0 /* SMGlowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BEED4C157F04DE006B19C0 /* SMGlowLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78B4379E157F1363007A53F8 /* aapBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aapBG.png; path = Resources/aapBG.png; sourceTree = "<group>"; };
+		78B437A1157F1374007A53F8 /* displayBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = displayBackground.png; path = Resources/displayBackground.png; sourceTree = "<group>"; };
+		78B437A2157F1374007A53F8 /* faderKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faderKey.png; path = Resources/faderKey.png; sourceTree = "<group>"; };
+		78B437A3157F1374007A53F8 /* faderTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faderTrack.png; path = Resources/faderTrack.png; sourceTree = "<group>"; };
+		78B437A4157F1374007A53F8 /* glossyDisplayGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glossyDisplayGlass.png; path = Resources/glossyDisplayGlass.png; sourceTree = "<group>"; };
+		78BEECFD157ECF10006B19C0 /* UISoundMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISoundMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BEED01157ECF10006B19C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78BEED03157ECF10006B19C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78BEED05157ECF10006B19C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78BEED09157ECF10006B19C0 /* UISoundMixer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UISoundMixer-Info.plist"; sourceTree = "<group>"; };
+		78BEED0B157ECF10006B19C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BEED0D157ECF10006B19C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78BEED0F157ECF10006B19C0 /* UISoundMixer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISoundMixer-Prefix.pch"; sourceTree = "<group>"; };
+		78BEED10157ECF10006B19C0 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		78BEED11157ECF10006B19C0 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		78BEED14157ECF10006B19C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		78BEED16157ECF10006B19C0 /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		78BEED17157ECF10006B19C0 /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+		78BEED4B157F04DE006B19C0 /* SMGlowLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGlowLabel.h; sourceTree = "<group>"; };
+		78BEED4C157F04DE006B19C0 /* SMGlowLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMGlowLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78BEECFA157ECF10006B19C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BEED02157ECF10006B19C0 /* UIKit.framework in Frameworks */,
+				78BEED04157ECF10006B19C0 /* Foundation.framework in Frameworks */,
+				78BEED06157ECF10006B19C0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78BEECF2157ECF0F006B19C0 = {
+			isa = PBXGroup;
+			children = (
+				78BEED07157ECF10006B19C0 /* UISoundMixer */,
+				78BEED23157EEF81006B19C0 /* Resources */,
+				78BEED00157ECF10006B19C0 /* Frameworks */,
+				78BEECFE157ECF10006B19C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78BEECFE157ECF10006B19C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78BEECFD157ECF10006B19C0 /* UISoundMixer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78BEED00157ECF10006B19C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78BEED01157ECF10006B19C0 /* UIKit.framework */,
+				78BEED03157ECF10006B19C0 /* Foundation.framework */,
+				78BEED05157ECF10006B19C0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78BEED07157ECF10006B19C0 /* UISoundMixer */ = {
+			isa = PBXGroup;
+			children = (
+				78BEED10157ECF10006B19C0 /* SMAppDelegate.h */,
+				78BEED11157ECF10006B19C0 /* SMAppDelegate.m */,
+				78BEED13157ECF10006B19C0 /* MainStoryboard.storyboard */,
+				78BEED16157ECF10006B19C0 /* SMViewController.h */,
+				78BEED17157ECF10006B19C0 /* SMViewController.m */,
+				78BEED2E157EF0D7006B19C0 /* GlowLabel */,
+				78BEED08157ECF10006B19C0 /* Supporting Files */,
+			);
+			path = UISoundMixer;
+			sourceTree = "<group>";
+		};
+		78BEED08157ECF10006B19C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BEED09157ECF10006B19C0 /* UISoundMixer-Info.plist */,
+				78BEED0A157ECF10006B19C0 /* InfoPlist.strings */,
+				78BEED0D157ECF10006B19C0 /* main.m */,
+				78BEED0F157ECF10006B19C0 /* UISoundMixer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BEED23157EEF81006B19C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78B4379E157F1363007A53F8 /* aapBG.png */,
+				78B437A1157F1374007A53F8 /* displayBackground.png */,
+				78B437A2157F1374007A53F8 /* faderKey.png */,
+				78B437A3157F1374007A53F8 /* faderTrack.png */,
+				78B437A4157F1374007A53F8 /* glossyDisplayGlass.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		78BEED2E157EF0D7006B19C0 /* GlowLabel */ = {
+			isa = PBXGroup;
+			children = (
+				78BEED4B157F04DE006B19C0 /* SMGlowLabel.h */,
+				78BEED4C157F04DE006B19C0 /* SMGlowLabel.m */,
+			);
+			name = GlowLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78BEECFC157ECF10006B19C0 /* UISoundMixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BEED1B157ECF10006B19C0 /* Build configuration list for PBXNativeTarget "UISoundMixer" */;
+			buildPhases = (
+				78BEECF9157ECF10006B19C0 /* Sources */,
+				78BEECFA157ECF10006B19C0 /* Frameworks */,
+				78BEECFB157ECF10006B19C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISoundMixer;
+			productName = UISoundMixer;
+			productReference = 78BEECFD157ECF10006B19C0 /* UISoundMixer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78BEECF4157ECF0F006B19C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 78BEECF7157ECF0F006B19C0 /* Build configuration list for PBXProject "UISoundMixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78BEECF2157ECF0F006B19C0;
+			productRefGroup = 78BEECFE157ECF10006B19C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78BEECFC157ECF10006B19C0 /* UISoundMixer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BEECFB157ECF10006B19C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BEED0C157ECF10006B19C0 /* InfoPlist.strings in Resources */,
+				78BEED15157ECF10006B19C0 /* MainStoryboard.storyboard in Resources */,
+				78B4379F157F1363007A53F8 /* aapBG.png in Resources */,
+				78B437A5157F1374007A53F8 /* displayBackground.png in Resources */,
+				78B437A6157F1374007A53F8 /* faderKey.png in Resources */,
+				78B437A7157F1374007A53F8 /* faderTrack.png in Resources */,
+				78B437A8157F1374007A53F8 /* glossyDisplayGlass.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78BEECF9157ECF10006B19C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BEED0E157ECF10006B19C0 /* main.m in Sources */,
+				78BEED12157ECF10006B19C0 /* SMAppDelegate.m in Sources */,
+				78BEED18157ECF10006B19C0 /* SMViewController.m in Sources */,
+				78BEED4D157F04DE006B19C0 /* SMGlowLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78BEED0A157ECF10006B19C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BEED0B157ECF10006B19C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78BEED13157ECF10006B19C0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BEED14157ECF10006B19C0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78BEED19157ECF10006B19C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78BEED1A157ECF10006B19C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78BEED1C157ECF10006B19C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISoundMixer/UISoundMixer-Prefix.pch";
+				INFOPLIST_FILE = "UISoundMixer/UISoundMixer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78BEED1D157ECF10006B19C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISoundMixer/UISoundMixer-Prefix.pch";
+				INFOPLIST_FILE = "UISoundMixer/UISoundMixer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78BEECF7157ECF0F006B19C0 /* Build configuration list for PBXProject "UISoundMixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BEED19157ECF10006B19C0 /* Debug */,
+				78BEED1A157ECF10006B19C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BEED1B157ECF10006B19C0 /* Build configuration list for PBXNativeTarget "UISoundMixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BEED1C157ECF10006B19C0 /* Debug */,
+				78BEED1D157ECF10006B19C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78BEECF4157ECF0F006B19C0 /* Project object */;
+}
