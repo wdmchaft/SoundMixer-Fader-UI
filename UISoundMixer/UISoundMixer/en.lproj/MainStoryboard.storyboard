@@ -23,19 +23,23 @@
                                 <rect key="frame" x="28" y="309" width="255" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="displayBackground.png" id="PSl-5K-Q9m">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="displayBackground copy.png" id="PSl-5K-Q9m">
                                 <rect key="frame" x="20" y="12" width="280" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="vMw-kW-oKP" customClass="SMGlowLabel">
                                 <rect key="frame" x="62" y="12" width="186" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DBLCDTempBlack" family="DB LCD Temp" pointSize="47"/>
+                                <fontDescription key="fontDescription" name="DBLCDTempBlack" family="DB LCD Temp" pointSize="56"/>
                                 <color key="textColor" red="0.69019609689712524" green="0.88627457618713379" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="grill.png" id="cEX-3j-4db">
+                                <rect key="frame" x="36" y="22" width="251" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="glossyDisplayGlass.png" id="neR-KS-MKB">
-                                <rect key="frame" x="24" y="12" width="273" height="128"/>
+                                <rect key="frame" x="27" y="16" width="273" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -55,8 +59,9 @@
     </scenes>
     <resources>
         <image name="aapBG.png" width="640" height="960"/>
-        <image name="displayBackground.png" width="601" height="306"/>
+        <image name="displayBackground copy.png" width="601" height="306"/>
         <image name="glossyDisplayGlass.png" width="601" height="306"/>
+        <image name="grill.png" width="472" height="260"/>
     </resources>
     <classes>
         <class className="SMGlowLabel" superclassName="UILabel">
